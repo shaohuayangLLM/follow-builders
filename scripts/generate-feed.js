@@ -213,7 +213,7 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
       const res = await fetch(
         `${X_API_BASE}/users/${userData.id}/tweets?` +
         `max_results=5` +       // fetch 5, then filter to 3 new ones
-        `&tweet.fields=created_at,public_metrics,referenced_tweets` +
+        `&tweet.fields=created_at,public_metrics,referenced_tweets,note_tweet` +
         `&exclude=retweets,replies` +
         `&start_time=${cutoff.toISOString()}`,
         { headers: { 'Authorization': `Bearer ${bearerToken}` } }
@@ -239,7 +239,8 @@ async function fetchXContent(xAccounts, bearerToken, state, errors) {
 
         newTweets.push({
           id: t.id,
-          text: t.text,
+          // note_tweet.text has the full untruncated text for long tweets (>280 chars)
+          text: t.note_tweet?.text || t.text,
           createdAt: t.created_at,
           url: `https://x.com/${account.handle}/status/${t.id}`,
           likes: t.public_metrics?.like_count || 0,
