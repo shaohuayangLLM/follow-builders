@@ -29,6 +29,48 @@
       "type": "youtube_channel",
       "url": "https://www.youtube.com/@DataDrivenNYC/videos",
       "channelHandle": "DataDrivenNYC"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@DwarkeshPatel",
+      "channelHandle": "DwarkeshPatel"
+    },
+    {
+      "name": "a16z",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@a16z",
+      "channelHandle": "a16z"
+    },
+    {
+      "name": "All-In Podcast",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@alaboroflove",
+      "channelHandle": "alaboroflove"
+    },
+    {
+      "name": "Andrej Karpathy",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@AndrejKarpathy",
+      "channelHandle": "AndrejKarpathy"
+    },
+    {
+      "name": "Y Combinator",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@ycombinator",
+      "channelHandle": "ycombinator"
+    },
+    {
+      "name": "Google DeepMind",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@Google_DeepMind",
+      "channelHandle": "Google_DeepMind"
+    },
+    {
+      "name": "Lenny's Podcast",
+      "type": "youtube_channel",
+      "url": "https://www.youtube.com/@LennysPodcast",
+      "channelHandle": "LennysPodcast"
     }
   ],
   "blogs": [
@@ -72,6 +114,28 @@
     { "name": "Dan Shipper", "handle": "danshipper" },
     { "name": "Aditya Agarwal", "handle": "adityaag" },
     { "name": "Sam Altman", "handle": "sama" },
-    { "name": "Claude", "handle": "claudeai" }
+    { "name": "Claude", "handle": "claudeai" },
+    { "name": "Dario Amodei", "handle": "DarioAmodei" },
+    { "name": "Satya Nadella", "handle": "satyanadella" },
+    { "name": "Ilya Sutskever", "handle": "ilyasut" },
+    { "name": "Aravind Srinivas", "handle": "AravSrinivas" },
+    { "name": "Yann LeCun", "handle": "ylecun" },
+    { "name": "Fei-Fei Li", "handle": "drfeifei" },
+    { "name": "Andrew Ng", "handle": "AndrewYNg" },
+    { "name": "Jim Fan", "handle": "DrJimFan" },
+    { "name": "Denny Zhou", "handle": "denny_zhou" },
+    { "name": "Yuchen Jin", "handle": "Yuchenj_UW" },
+    { "name": "Mike Krieger", "handle": "mikeyk" },
+    { "name": "Boris Cherny", "handle": "bcherny" },
+    { "name": "Sarah Guo", "handle": "saranormous" },
+    { "name": "Freda Duan", "handle": "FredaDuan" },
+    { "name": "David Sacks", "handle": "DavidSacks" },
+    { "name": "Mario Gabriele", "handle": "mariogabriele" },
+    { "name": "Michael Burry", "handle": "michaeljburry" },
+    { "name": "Dwarkesh Patel", "handle": "dwarkesh_sp" },
+    { "name": "Peter Wildeford", "handle": "peterwildeford" },
+    { "name": "Ariel Reyez Romero", "handle": "ReyezAriel" },
+    { "name": "宝玉", "handle": "dotey" },
+    { "name": "indigo", "handle": "indigox" }
   ]
 }
